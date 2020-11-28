@@ -48,7 +48,7 @@
             <div class="card-body">
                 <h5 class="card-title">Rahmaa YK</h5>
                 <p class="card-text">Indonesian,19</p>
-                <a href="instagram.com/rahmaaayk" class="btn btn-dark">Follow on Instagram</a>
+                <a href="https://instagram.com/rahmaaayk" class="btn btn-dark">Follow on Instagram</a>
                 </div>
                 </div>
               </form>

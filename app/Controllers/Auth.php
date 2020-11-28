@@ -41,7 +41,11 @@ class Auth extends BaseController
 	}
 
 	public function index(){
-		return view('auth/index');
+		$data['title'] = "Halaman Depan";
+
+		echo view('index/i_header', $data);
+		echo view('index/i_content', $data);
+		
 	}
 
 	public function about(){
@@ -49,15 +53,24 @@ class Auth extends BaseController
 	}
 
 	public function lightband(){
-		return view('auth/lightband');
+		$data['title'] = "Halaman Depan";
+
+		echo view('lightband/l_header', $data);
+		echo view('lightband/l_content', $data);
 	}
 
 	public function album(){
-		return view('auth/album');
+		$data['title'] = "Halaman Depan";
+
+		echo view('album/a_header', $data);
+		echo view('album/a_content', $data);
 	}
 
 	public function merch (){
-		return view('auth/merch');
+		$data['title'] = "Halaman Depan";
+
+		echo view('merch/m_header', $data);
+		echo view('merch/m_content', $data);
 	}
 
 	//--------------------------------------------------------------------
